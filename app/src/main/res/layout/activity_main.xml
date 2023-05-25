@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="336dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="108dp"
+        android:text="мое смарт-устройство"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="44dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/baseline_laptop_24"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="336dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="188dp"
+        android:text="1.3 km"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="336dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="272dp"
+        android:text="59 kcal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="336dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="360dp"
+        android:text="30 min"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="336dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="444dp"
+        android:text="1583 steps"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/baseline_location_on_24"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="41dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/baseline_local_fire_department_24"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="48dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/baseline_watch_later_24"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="46dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/baseline_loop_24"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="161dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/msg620286113_44009"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="158dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/msg620286113_44010"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
